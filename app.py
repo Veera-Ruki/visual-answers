@@ -142,11 +142,11 @@ def open_domain_vqa(Image, Question):
 
 
 title = "OFA-Open_Domain_VQA"
-description = "Gradio Demo for OFA-Open_Domain_VQA. Upload your own image or click any one of the examples, and click " \
+description = "Gradio Demo for OFA-Open_Domain_VQA. Upload your own image (high-resolution images are recommended) or click any one of the examples, and click " \
               "\"Submit\" and then wait for OFA's answer. "
 article = "<p style='text-align: center'><a href='https://github.com/OFA-Sys/OFA' target='_blank'>OFA Github " \
           "Repo</a></p> "
-examples = [['money_tree.png', 'what is grown on the plant?'], ['airship.jpg', 'what does the red-roofed building right to the big airship look like?'], ['sitting_man.png', 'what is the man sitting on?']]
+examples = [['cat-4894153_1920.jpg', 'where are the cats?'], ['men-6245003_1920.jpg', 'how many people are in the image?'], ['labrador-retriever-7004193_1920.jpg', 'what breed is the dog in the picture?']]
 io = gr.Interface(fn=open_domain_vqa, inputs=[gr.inputs.Image(type='pil'), "textbox"], outputs=gr.outputs.Textbox(label="Answer"),
                   title=title, description=description, article=article, examples=examples,
                   allow_flagging=False, allow_screenshot=False)

@@ -1,6 +1,6 @@
 ---
 title: OFA-Open_Domain_VQA
-emoji: 💩
+emoji: 👑
 colorFrom: blue
 colorTo: pink
 sdk: gradio
