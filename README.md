@@ -1,6 +1,6 @@
 ---
 title: OFA-Visual_Question_Answering
-emoji: 👑
+emoji: 🎓
 colorFrom: blue
 colorTo: pink
 sdk: gradio
