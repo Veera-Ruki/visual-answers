@@ -141,8 +141,8 @@ def open_domain_vqa(Image, Question):
     return result[0]['answer']
 
 
-title = "OFA-Open_Domain_VQA"
-description = "Gradio Demo for OFA-Open_Domain_VQA. Upload your own image (high-resolution images are recommended) or click any one of the examples, and click " \
+title = "OFA-Visual_Question_Answering"
+description = "Gradio Demo for OFA-Visual_Question_Answering. Upload your own image (high-resolution images are recommended) or click any one of the examples, and click " \
               "\"Submit\" and then wait for OFA's answer. "
 article = "<p style='text-align: center'><a href='https://github.com/OFA-Sys/OFA' target='_blank'>OFA Github " \
           "Repo</a></p> "
