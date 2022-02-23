@@ -1,5 +1,5 @@
 ---
-title: OFA-Open_Domain_VQA
+title: OFA-Visual_Question_Answering
 emoji: 👑
 colorFrom: blue
 colorTo: pink
