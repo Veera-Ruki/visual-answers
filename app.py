@@ -146,7 +146,7 @@ description = "Gradio Demo for OFA-Visual_Question_Answering. Upload your own im
               "\"Submit\" and then wait for OFA's answer. "
 article = "<p style='text-align: center'><a href='https://github.com/OFA-Sys/OFA' target='_blank'>OFA Github " \
           "Repo</a></p> "
-examples = [['cat-4894153_1920.jpg', 'where are the cats?'], ['men-6245003_1920.jpg', 'how many people are in the image?'], ['labrador-retriever-7004193_1920.jpg', 'what breed is the dog in the picture?']]
+examples = [['cat-4894153_1920.jpg', 'where are the cats?'], ['men-6245003_1920.jpg', 'how many people are in the image?'], ['labrador-retriever-7004193_1920.jpg', 'what breed is the dog in the picture?'], ['Starry_Night.jpeg', 'what style does the picture belong to?']]
 io = gr.Interface(fn=open_domain_vqa, inputs=[gr.inputs.Image(type='pil'), "textbox"], outputs=gr.outputs.Textbox(label="Answer"),
                   title=title, description=description, article=article, examples=examples,
                   allow_flagging=False, allow_screenshot=False)
