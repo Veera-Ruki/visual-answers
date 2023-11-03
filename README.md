@@ -1,5 +1,5 @@
 ---
-title: OFA-Visual_Question_Answering
+title: Visual_Question_Answering_VQA
 emoji: 🎓
 colorFrom: blue
 colorTo: pink
@@ -10,5 +10,3 @@ license: apache-2.0
 ---
 
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces#reference
-
-
